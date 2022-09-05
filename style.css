@@ -14,3 +14,24 @@ body {
     position: relative;
 }
 
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+
+
+.slide[data-active] {
+    opacity: 1;
+}
+
+.carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    z-index: 2;
+    bottom: 10%;
+    transform: translateX(100%);
+}
